@@ -23,3 +23,5 @@ Create a `.env` file with the following contents:
 ## License
 
 periwinkle is licensed under the [AGPLv3 license](https://github.com/kiseki-lol/periwinkle/blob/trunk/LICENSE.md). A copy of it has been included with periwinkle.
+
+Banner drawn by [@briwaffles](https://twitter.com/briwaffles).
