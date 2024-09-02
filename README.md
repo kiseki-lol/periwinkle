@@ -2,10 +2,11 @@
 
 Discord management bot for Kiseki instances
 
-Requires:
+Package requirements:
 
-- discord.py
-- python-dotenv
+- `discord.py`
+- `python-dotenv`
+- `humanize`
 
 ## Usage
 
@@ -13,11 +14,11 @@ Run `python periwinkle.py` to start the bot
 
 Create a `.env` file with the following contents:
 
-```
-TOKEN=<your discord bot token>
-KISEKI_URL=<the root to your kiseki instance, e.g. http://kiseki.loc>
-API_KEY=<your kiseki API key that you generated with "sail artisan generate-periwinkle-key" (see https://github.com/kiseki-lol/web/trunk/docs/api.md#periwinkle-api-key-generation)>
-```
+| Name         | Expected value                                                                                                                                                                     |
+| ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `TOKEN`      | Discord bot token                                                                                                                                                                  |
+| `KISEKI_URL` | Kiseki root URL                                                                                                                                                                    |
+| `API_KEY`    | Periwinkle API key that you generated with `sail artisan generate-periwinkle-key` ([read more](https://github.com/kiseki-lol/web/trunk/docs/api.md#periwinkle-api-key-generation)) |
 
 ## License
 
