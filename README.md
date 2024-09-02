@@ -1,6 +1,6 @@
 # periwinkle
 
-Discord management bot for Kiseki instances
+Discord server management bot for Kiseki instances
 
 Package requirements:
 
