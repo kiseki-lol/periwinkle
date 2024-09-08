@@ -19,6 +19,9 @@ async def on_ready():
     print(f'Logged in as "{client.user}" (ID: {client.user.id})')
     await client.tree.sync()
 
+@app_commands.allowed_installs(guilds=True, users=True)
+@app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
+
 @client.tree.command(name="lookup", description="Look up a Kiseki user by their username or ID")
 async def lookup(interaction: discord.Interaction, query: str):
     await interaction.response.defer()
