@@ -2,15 +2,10 @@
 
 Discord server management bot for Kiseki instances
 
-Package requirements:
-
-- `discord.py`
-- `python-dotenv`
-- `humanize`
-
 ## Usage
 
-Run `python periwinkle.py` to start the bot
+1. Install packages with `pip install -r requirements.txt`
+2. Run `python main.py` to start the bot
 
 Create a `.env` file with the following contents:
 
